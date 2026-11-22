@@ -1,0 +1,10 @@
+[Unit]
+Description=Heartbeat test service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/heartbeat.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
