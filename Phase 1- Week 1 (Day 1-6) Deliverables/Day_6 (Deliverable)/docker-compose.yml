@@ -1,0 +1,11 @@
+services:
+  web:
+    image: adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_PASSWORD: labpass123
