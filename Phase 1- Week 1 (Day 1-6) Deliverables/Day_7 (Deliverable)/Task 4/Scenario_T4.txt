@@ -1,0 +1,5 @@
+Task 4 - Event Viewer Scenario
+
+Someone has been trying to log on to the Windows VM as USER2 with the wrong password.
+
+Using Get-WinEvent with -FilterHashtable, find the 3 most recent failed logon events (Event ID 4625) in the Security log and show which account they were for.

@@ -1,0 +1,8 @@
+Task 5 - Docker Compose Spec
+
+Build and run a 2-container stack with Docker Compose:
+
+1. Service "web": image nginx:alpine, mapped to host port 8081 (container port 80).
+2. Service "cache": image redis:alpine.
+3. "web" must start after "cache".
+4. Both containers must be running and the web page must be reachable at http://localhost:8081.

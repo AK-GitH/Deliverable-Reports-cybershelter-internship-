@@ -1,0 +1,8 @@
+Task 3 - systemd Service Scenario
+
+The script /usr/local/bin/disk-monitor.sh records the time and the disk usage of / to /var/log/disk-monitor.log every 60 seconds.
+
+1. Turn this script into a systemd service called disk-monitor.service.
+2. The service must start automatically at boot.
+3. If the script stops or crashes, the service must restart it.
+4. The service must still be running after a reboot.

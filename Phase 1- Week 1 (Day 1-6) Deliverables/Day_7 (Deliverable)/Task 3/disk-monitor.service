@@ -1,0 +1,10 @@
+[Unit]
+Description=Disk usage monitor
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/disk-monitor.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

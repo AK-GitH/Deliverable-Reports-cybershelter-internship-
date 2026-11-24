@@ -1,0 +1,8 @@
+Task 2 - Permissions + ACL Scenario
+
+A folder /srv/finance holds the company's finance reports.
+
+1. ak (owner) needs full access: read, write and open the folder.
+2. The "team" group (includes member-1) may only read and open the folder, not change anything.
+3. Everyone else must have no access at all.
+4. An external user "auditor" (not in the team group) must be able to read and write in the folder to add audit notes.
