@@ -1,0 +1,12 @@
+# Nmap 7.991 scan initiated Sat Nov 28 15:01:04 2026 as: /usr/lib/nmap/nmap -sS -T4 --max-retries 2 -oN scan_sS.txt scanme.nmap.org
+Warning: 45.33.32.156 giving up on port because retransmission cap hit (2).
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.10s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 958 closed tcp ports (reset), 39 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+9929/tcp open  nping-echo
+
+# Nmap done at Sat Nov 28 15:01:44 2026 -- 1 IP address (1 host up) scanned in 39.77 seconds
